@@ -1,0 +1,47 @@
+#login {
+    position: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: 0;
+    background: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 500px;
+}
+
+.item-header {
+   margin-right: 20px;
+}
+.login-item {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#login .login-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#login .item-header button {
+    padding: 10px 90px;
+    margin-top: 10px;
+    background-color: red;
+    color: #fff;
+}
+#login .item-form input {
+    padding: 10px 80px 10px 5px;
+}
+
+#login .item-header ul {
+    text-emphasis: none;
+    list-style: none;
+    padding: 0;
+}
+
+#login img {
+    height: 336px;
+    opacity: 10;
+}
+
